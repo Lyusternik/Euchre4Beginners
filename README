@@ -1,0 +1,2 @@
+Euchre4Beginners.c is the file that contains anything of interest. All other files are files necessary to run on the 9S12 and to make certain variables/control statements (such as those for SPI).
+These files are not released under MIT license, and are governed by whatever license governs.
