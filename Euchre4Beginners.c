@@ -2,9 +2,7 @@
 ************************************************************************
  ECE 362 - Mini Project - Fall 2017
 ***********************************************************************
-Dan Wickett
-WiLL Herman
-John Kansky
+Euchre4Beginners Team - John, Dan, and Will
 	 	   			 		  			 		  		
 
 
@@ -130,7 +128,7 @@ void  initializations(void) {
    - period register = $FF (yielding a duty cycle range of 0% to 100%,
      for duty cycle register values of $00 to $FF 
    - duty register = $00 (motor initially stopped)
-                         
+Â Â    Â Â Â Â   Â  Â Â Â Â Â Â    Â Â  
  IMPORTANT: Need to set MODRR so that PWM Ch 3 is routed to port pin PT3
 */
   // need 5?
@@ -162,7 +160,7 @@ void  initializations(void) {
  be operated in a program-driven (i.e., non-interrupt driven), normal
  flag clear mode using nominal sample time/clock prescaler values,
  8-bit, unsigned, non-FIFO mode.
-                         
+Â Â    Â Â Â Â   Â  Â Â Â Â Â Â    Â Â  
  Note: Vrh (the ATD reference high voltage) is connected to 5 VDC and
        Vrl (the reference low voltage) is connected to GND on the 
        9S12C32 kit.  An input of 0v will produce output code $00,
@@ -1146,7 +1144,7 @@ void delaySet(char sec) {
     
 }
 /*
-***********************************************************************                       
+***********************************************************************   Â Â Â Â   Â  Â Â Â Â Â Â    Â Â  
  RTI interrupt service routine: RTI_ISR
 
  Initialized for 8.192 ms interrupt rate
@@ -1205,14 +1203,14 @@ interrupt 7 void RTI_ISR(void)
 }
 
 /*
-***********************************************************************                       
+***********************************************************************   Â Â Â Â   Â  Â Â Â Â Â Â    Â Â  
   TIM interrupt service routine
 
   Initialized for 10.0 ms interrupt rate
 
   Uses variable "tencnt" to track if one-tenth second has accumulated
      and sets "tenths" flag 
-                         
+Â Â    Â Â Â Â   Â  Â Â Â Â Â Â    Â Â  
   Uses variable "onecnt" to track if one second has accumulated and
      sets "onesec" flag		 		  			 		  		
 ;***********************************************************************
